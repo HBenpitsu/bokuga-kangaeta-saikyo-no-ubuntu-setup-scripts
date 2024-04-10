@@ -1,0 +1,8 @@
+[Desktop Entry]
+Categories=Utility;
+Comment=Auto Setting Script
+Name=SETUP
+StartupNotify=true
+Terminal=true
+Type=Application
+# set by script Exec=

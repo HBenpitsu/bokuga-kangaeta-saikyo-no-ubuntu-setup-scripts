@@ -1,0 +1,48 @@
+    OpenRGB v0.9
+    Commit: b5f46e3f1de03595656c682fc2f068b66e735e63 from 2023-07-09 22:51:47 -0500
+    Launched: 20240409_190404
+====================================================================================================
+
+1006  |Info:    Saving detector settings
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    |               Start device detection               |
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    Initializing HID interfaces: Success
+1015  |Info:    ------------------------------------------------------
+1015  |Info:    |             Detecting I2C interfaces               |
+1015  |Info:    ------------------------------------------------------
+1023  |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:73FF Subsystem: 1849:5216
+1023  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1023  |Info:    Registering I2C interface: /dev/i2c-10 Device 0000:0000 Subsystem: 0000:0000
+1023  |Info:    Registering I2C interface: /dev/i2c-1 Device 1022:790B Subsystem: 1462:7C56
+1023  |Info:    Registering I2C interface: /dev/i2c-8 Device 1002:73FF Subsystem: 1849:5216
+1023  |Info:    Registering I2C interface: /dev/i2c-6 Device 1002:73FF Subsystem: 1849:5216
+1023  |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:73FF Subsystem: 1849:5216
+1024  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1024  |Info:    Registering I2C interface: /dev/i2c-11 Device 0000:0000 Subsystem: 0000:0000
+1024  |Info:    Registering I2C interface: /dev/i2c-2 Device 1022:790B Subsystem: 1462:7C56
+1024  |Info:    Registering I2C interface: /dev/i2c-0 Device 1022:790B Subsystem: 1462:7C56
+1024  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1024  |Info:    Registering I2C interface: /dev/i2c-9 Device 0000:0000 Subsystem: 0000:0000
+1024  |Info:    Registering I2C interface: /dev/i2c-7 Device 1002:73FF Subsystem: 1849:5216
+1024  |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:73FF Subsystem: 1849:5216
+1024  |Info:    ------------------------------------------------------
+1024  |Info:    |               Detecting I2C devices                |
+1024  |Info:    ------------------------------------------------------
+2036  |Info:    ------------------------------------------------------
+2036  |Info:    |               Detecting I2C PCI devices            |
+2036  |Info:    ------------------------------------------------------
+2037  |Info:    ------------------------------------------------------
+2037  |Info:    |               Detecting HID devices                |
+2037  |Info:    ------------------------------------------------------
+2117  |Info:    [MSI MPG B550 GAMING PLUS (MS-7C56)] Registering RGB controller
+2117  |Info:    ------------------------------------------------------
+2117  |Info:    |            Detecting libusb HID devices            |
+2117  |Info:    ------------------------------------------------------
+2117  |Info:    ------------------------------------------------------
+2117  |Info:    |              Detecting other devices               |
+2117  |Info:    ------------------------------------------------------
+2132  |Info:    ------------------------------------------------------
+2132  |Info:    |                Detection completed                 |
+2132  |Info:    ------------------------------------------------------
+75754 |ERROR:   [OpenRGBPluginsPage] Failed to install plugin: filesystem error: cannot copy: No such file or directory [] [/home/hbenpitsu/.config/OpenRGB/plugins/]

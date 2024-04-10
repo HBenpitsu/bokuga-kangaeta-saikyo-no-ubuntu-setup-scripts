@@ -1,0 +1,2 @@
+evdev:input:b0003v0483p5129*
+    KEYBOARD_KEY_70039=henkan

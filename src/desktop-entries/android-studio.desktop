@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Comment=IDE for Androdi applications
+Exec=/usr/local/share/android-studio/bin/studio.sh
+Icon=/usr/local/share/android-studio/bin/studio.svg
+Name=AndroidStudio
+Terminal=false
+Categories=Development,IDE
